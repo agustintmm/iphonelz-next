@@ -1,0 +1,12 @@
+.post {
+    width: min(95%,100rem);
+    margin: 3rem auto;
+}
+
+.content {
+    white-space: pre-wrap;
+}
+
+.imagen {
+    border-radius: 10px;
+}

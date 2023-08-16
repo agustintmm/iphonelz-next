@@ -1,0 +1,206 @@
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35vh;
+    background-image: url(/img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#contenido {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#contenido p {
+    text-align: center;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.contenedor{
+    width: 100%;
+}
+
+#headingHero {
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+#botonHero {
+    align-self: center;
+    width: 80%;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+#parrafo{
+    margin-top: 0px;
+    text-align: center;
+}
+
+#featuredItems {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 20px auto;
+}
+
+#productos{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.producto{
+    width: 30%;
+}
+
+.imagen{
+    width: 500px;
+}
+
+.infoProducto h3 {
+    font-size: 1.7rem;
+}
+
+.descripcion {
+    display: none;
+}
+
+.precio {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.boton {
+    display: none;
+}
+
+#featuredItems h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#aboutUs {
+    width: 98%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#aboutUs h2 {
+    font-size: 2rem;
+}
+
+#aboutUs p {
+    font-size: 1.5rem;
+}
+
+#cursos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25vh;
+    align-items: center;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#contenidoCurso {
+    margin: auto;
+}
+
+#cursos h2 {
+    font-size: 2rem;
+    padding: 20px;
+}
+
+#descripcionCurso {
+    display: none;
+}
+
+#botonCurso {
+    font-size: 1.5rem;
+    width: 50%;
+    margin: auto;
+}
+
+@media (min-width: 768px){
+    
+    #hero {
+        height: 80vh;
+    }
+
+    #headingHero {
+        font-size: 5rem;
+    }
+
+    #contenido p {
+        font-size: 2rem;
+    }
+
+    #botonHero {
+        width: auto;
+    }
+
+    #featuredItems {
+        width: 80%;
+    }
+
+    #featuredItems h2 {
+        font-size: 3rem;
+    }
+
+    #cursos {
+        width: 100%;
+        height: 65vh;
+        margin: 70px auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    #contenidoCurso {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #cursos h2 {
+        text-align: center;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+
+    .scroll-container {
+        overflow: auto;
+        max-width: 100%;
+        max-height: 40%;
+        text-align: center;
+    }
+
+    #descripcionCurso {
+        display: block;
+        font-size: 1.8rem;
+        margin: auto;
+    }
+
+    #botonCurso {
+        margin: 20px auto auto;
+        width: auto;
+    }
+
+    #aboutUs {
+        width: 50%;
+        margin-bottom: 70px;
+    }
+}

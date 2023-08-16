@@ -1,0 +1,54 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.producto{
+    width: 100%;
+    background-color: #2b292954;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.imagen {
+    border-radius: 10px;
+}
+
+.price {
+    color: #ff0;
+    font-weight: 700;
+}
+
+.formulario select {
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+#boton {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    .producto{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 50px;
+    }
+
+    .infoProducto {
+        width: 40%;
+    }
+
+    .descripcionProducto {
+        width: 50%;
+        align-self: center;
+    }
+}

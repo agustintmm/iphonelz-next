@@ -1,0 +1,32 @@
+.fijo{
+    position: sticky;
+    top: 0rem;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.header .logo{
+    width: 10rem;
+    margin-bottom: 10px ;
+  }
+
+@media(min-width:768px){
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

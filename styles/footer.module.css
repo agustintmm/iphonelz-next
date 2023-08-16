@@ -1,0 +1,52 @@
+.footer{
+    margin-top: auto;
+    background-color: yellow;
+    padding: 5rem 0rem;
+    margin-top: auto;
+}
+
+.footer nav a{
+    color: black;
+    margin: 0.3rem 0;
+}
+
+.footer nav{
+    display: none;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image{
+    margin: 0px 5px;
+    width: auto;
+    height: auto;
+}
+
+.info{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: black;
+}
+
+.info a{
+    text-decoration: none;
+    color: black;
+}
+
+@media(min-width:768px){
+    .footer nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
