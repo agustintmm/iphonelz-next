@@ -1,38 +1,24 @@
-e-commerce creado desde 0, usando React Next.
-El sitio consta de 5 rutas principales: Inicio, Nosotros, Blog, Tienda y el Carrito de compras. En las primeras 4 se muestra texto e imagenes traidas desde una API, la misma fue creada con Django REST FRAMEWORK y hosteada en RENDER, donde tambien esta almacenada la base de datos PostgreeSQL a la que esta conectado Django y en donde se guarda la información que luego se recupera consultando la API. El sitio cuenta con routing dinamico a la hora de visitar cada producto por separado. Y un carrito de compras que se guarda en Local Storage para no perder la información.
-## Getting Started
-----------------------------------------------------------------------------------------
-First, run the development server:
+<br/>
+<p align="center">
+  <h3 align="center">iPhoneLZ - ecommerce</h3>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+  <p align="center">
+    Parte Front de un proyecto full stack creado con Django y React Remix
+    <br/>
+    <br/>
+    <a href="[https://github.com/agustintmm/iPhoneLZ-remix](https://iphonelz-react.vercel.app)">View Demo</a>
+  </p>
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## About The Project
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![Screen Shot](https://res.cloudinary.com/dfwb0gsgo/image/upload/v1693417919/q55yqyomqy8wwgxxebb3.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Es un proyecto de un e-commerce que cuenta con carrito de compras, las imagenes y el texto que se muestra, son traidos desde una API creada en Django, el carrito de compras utiliza Local Storage para guardar la información de los productos que se van añadiendo. Se cuenta con routing dinamico a la hora de visitar cada producto por separado. El sitio web cuenta con un diseño limpio y responsive que se le dió solo utilizando CSS puro.
 
-## Learn More
+## Authors
 
-To learn more about Next.js, take a look at the following resources:
+* **Agustin Martinez** - *Estudiante de Ingeniería en Sistemas* - [Agustin Martinez](https://github.com/agustintmm) - **
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
