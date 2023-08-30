@@ -3,10 +3,10 @@
   <h3 align="center">iPhoneLZ - ecommerce</h3>
 
   <p align="center">
-    Parte Front de un proyecto full stack creado con Django y React Remix
+    Parte Front de un proyecto full stack creado con Django y Next.js
     <br/>
     <br/>
-    <a href="[https://github.com/agustintmm/iPhoneLZ-remix](https://iphonelz-react.vercel.app)">View Demo</a>
+    <a href="https://iphonelz-react.vercel.app">View Demo</a>
   </p>
 </p>
 
